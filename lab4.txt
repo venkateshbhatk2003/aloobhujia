@@ -1,0 +1,22 @@
+1. create a new repository
+2. create a new folder and open it in vs code
+	> git clone <link >
+3. after cloning type the code
+4. create a new file say a.txt
+	>cd <tab>
+	>git add a.txt
+	>git commit -m "first commit"
+	>git push origin main
+5. create one more text file
+	>git add b.txt
+	>git commit -m "second commit"
+	>git push origin main
+>git tag v1.0
+>git tag
+>git push origin main
+6. create a new text file say c.txt
+	>git add c.txt
+	>git commit -m "third commit"
+>git push origin main
+>git checkout -b version v1.0
+>git push origin version

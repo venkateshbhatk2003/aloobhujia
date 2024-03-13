@@ -1,0 +1,18 @@
+1. create a new repository
+2. create a new folder and open it in vs code
+	> git clone <link >
+3. after cloning type the code
+	>cd <tab>
+	>git add a.txt
+	>git commit -m "first commit"
+	>git push
+4. create new file
+	>git add b.txt
+	>git commit -m "second commit"
+	>git push
+5. repeat the above for 3 more times
+6. >git log
+7. >git show
+8. > git log --author="SPARSHAV03"--since="2024-02-21"--until="2024-02-22"
+9. >git log -n 3
+10. >git revert --------- -n

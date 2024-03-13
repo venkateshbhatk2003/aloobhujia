@@ -1,0 +1,19 @@
+1. create a new repository
+2. create a new folder and open it in vs code
+3. new terminal
+4. git clone <link>
+(create a new folder say a.txt)
+5. cd <tab>
+6. git branch
+7. git branch -c feature-branch
+8. git branch
+9. git push origin feature-branch
+10. git checkout main
+11. git fetch
+12. git release origin/feature-branch
+13. git push origin main
+14. git pull origin main
+15. git push origin main
+16. git checkout main
+17. git merge feature-branch -m "merge feature"
+18. git push origin main

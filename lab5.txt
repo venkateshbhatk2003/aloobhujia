@@ -1,0 +1,26 @@
+1. create a new repository
+2. 2. create a new folder and open it in vs code
+	> git clone <link >
+3. after cloning type the code
+	>cd <tab>
+	>git add .
+	>git commit -m "first commit"
+	>git push origin main
+	>git checkout -b source-branch
+	>git branch
+4. create a new text file say a.txt
+	>git add .
+	>git commit -m "second commit"
+	>git push origin source-branch
+	>git push origin source-branch
+	>git branch
+5. create a text file say c.txt
+	>git add .
+	>git commit -m "file c"
+	>git push origin source-branch
+	>git branch
+6. >git cherry pick source-branch~2..source_branch
+>git branch
+>gt commit -m "final"
+>git push origin main
+>git log
