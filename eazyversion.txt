@@ -1,0 +1,106 @@
+1)
+
+>git clone url
+>cd <tab>
+create a file(xxx.py)
+>git add .
+>git commit -m "hii"
+>git push url
+
+
+
+
+2)
+
+>git clone url
+>cd <tab>
+>git checkout -b feature-branch
+create a file(xxx.py)
+>git add .
+>git commit -m "feature-branch"
+>git push url
+
+>git checkout -b master
+create a file(yyy.py)
+>git add .
+>git commit -m "feature-branch"
+>git push url
+
+>git merge feature-branch
+
+
+3)
+
+>git clone url
+>cd <tab>
+Echo “  “>>abc.txt
+create a file(xxx.py)
+>git add .
+>git commit -m "hii"
+
+>git fetch origin
+>git rebase origin/main
+
+git push origin feature branch
+
+
+
+
+
+
+4)
+>git clone url
+>cd <tab>
+create a file(xxx.py)
+>git add .
+>git commit -m "hii"
+>git push url
+
+>git log    (you will get a commit id)
+>git tag v1.0
+>git tag 
+git push origin v1.0
+
+
+
+5)
+
+>git clone url
+>cd <tab>
+>git checkout -b main
+create a file(xxx.py)
+>git add .
+>git commit -m "main"
+>git push origin main
+
+>git checkout -b source-branch
+create a file(yyy.py)
+>git add .
+>git commit -m "main"
+>git push origin source-branch
+
+>git checkout main
+>get cherry-pick  source-branch ~1.. source-branch
+
+
+#go to github branch...
+
+
+
+6)
+
+
+>git clone url
+>cd <tab>
+create a file(xxx.py)
+>git add .
+>git commit -m "hii"
+>git push url
+
+>git show (you will get commit id)
+>git show <commit_id>
+>git log --author="Abhijna08"
+>git log --after="2024-02-25"
+>git log --before="2024-02-22"
+>git log -n 1
+git revert <commit id>
